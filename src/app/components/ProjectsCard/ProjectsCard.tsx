@@ -1,3 +1,4 @@
+import { t } from "i18next";
 
 interface cardsProps {
   title: string;
@@ -22,8 +23,8 @@ export default function ProjectsCards({ title, description, technologies, link }
     </div>
 
     <footer className="w-full flex justify-center mt-auto">
-      <button className="w-full bg-black text-white text-xs p-2 rounded-sm" onClick={() => window.open(link, '_blank')}>
-        Ver mais
+      <button className="w-full bg-black text-white text-xs p-2 rounded-sm cursor-pointer" onClick={() => window.open(link, '_blank')}>
+       {t('seeMoreButton')}
       </button>
     </footer>
   </article>
