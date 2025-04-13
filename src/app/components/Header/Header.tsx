@@ -27,6 +27,7 @@ export default function Header() {
             PT
           </button>
         </div>
+        <h2>{t('position')}</h2>
       </div>
     </header>
   );
