@@ -1,5 +1,6 @@
 'use client'
 
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { useTranslation } from 'react-i18next';
 
 export default function Header() {
@@ -13,6 +14,7 @@ export default function Header() {
     <header className="flex justify-between items-center font-semibold py-2 px-4 gap-4 w-full">
       <h1>Vivi.dev</h1>
       <div className="flex items-center gap-4">
+        <ThemeToggle/>
           <button>Sobre</button>
           <button>Projetos</button>
           <button>Contato</button>
