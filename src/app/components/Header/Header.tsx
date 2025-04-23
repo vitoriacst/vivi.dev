@@ -13,6 +13,9 @@ export default function Header() {
     <header className="flex justify-between items-center font-semibold py-2 px-4 gap-4 w-full">
       <h1>Vivi.dev</h1>
       <div className="flex items-center gap-4">
+          <button>Sobre</button>
+          <button>Projetos</button>
+          <button>Contato</button>
         <div className="flex gap-2">
           <button
             onClick={() => changeLanguage('en')}

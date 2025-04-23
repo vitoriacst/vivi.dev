@@ -10,7 +10,7 @@ interface cardsProps {
 export default function ProjectsCards({ title, description, technologies, link }: cardsProps) {
   return (
   <div className="flex items-start flex-wrap gap-4">
-  <article className="flex flex-col justify-between items-center shadow-md p-4 border sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]">
+  <article className="flex flex-col justify-between items-center shadow-md p-4 border sm:w-[200px] sm:h-[300px] md:w-[250px] md:h-[250px]">
     <header className="mb-2 text-center">
       <h2 className="text-sm font-bold">{title}</h2>
     </header>
