@@ -1,23 +1,34 @@
 'use client'
 
+import { changeVisibility, useAppDispatch } from '@/app/store/store';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { useTranslation } from 'react-i18next';
 
 export default function Header() {
+
+
   const { t, i18n } = useTranslation('common')
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng)
   }
+  const dispatch = useAppDispatch()
+
+  const handleChangeVisibility = (choosenPage:string) => {
+    dispatch(changeVisibility({
+      page: choosenPage
+    }))
+  }
+
 
   return (
     <header className="flex justify-between items-center font-semibold py-2 px-4 gap-4 w-full">
       <h1>Vivi.dev</h1>
       <div className="flex items-center gap-4">
         <ThemeToggle/>
-          <button>Sobre</button>
-          <button>Projetos</button>
-          <button>Contato</button>
+          <button onClick={()=>handleChangeVisibility('about')}>Sobre</button>
+          <button onClick={()=> handleChangeVisibility('projects')}>Projetos</button>
+          <button onClick={()=> handleChangeVisibility('contact')}>Contato</button>
         <div className="flex gap-2">
           <button
             onClick={() => changeLanguage('en')}

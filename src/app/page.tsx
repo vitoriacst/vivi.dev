@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useTranslation('common')
 
   return (
-    <main className="flex w-full flex-col items-center justify-cetnter p-6 md:p-24">
+    <main className="flex w-full flex-col items-center justify-center p-6">
       <div className="w-full max-w-[900px] flex flex-col md:flex-row gap-4">
         <div className="w-full flex flex-col gap-4 bg-white p-4 rounded-md">
           <AboutMe />
