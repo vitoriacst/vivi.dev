@@ -2,7 +2,7 @@
 export default function Footer(){
   return(
     <footer>
-      construido com amor por vitória holanda
+      feito com 🖤 por vitória holanda
     </footer>
   )
 }
