@@ -20,23 +20,25 @@ export default function Header() {
 
 
   return (
-    <header className="flex justify-between items-center font-semibold py-2 px-4 gap-4 w-full">
+    <header className="flex flex-wrap justify-between items-center font-semibold py-2 px-4 gap-4 w-full flex-col md:flex-row">
       <h1>Vivi.dev</h1>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-col md:flex-row">
+      <div className='flex gap-2 items-center justify-center'>
           <button className='btn-nav' onClick={()=>handleChangeVisibility('about')}>Sobre</button>
           <button className='btn-nav' onClick={()=> handleChangeVisibility('projects')}>Projetos</button>
           <button className='btn-nav' onClick={()=> handleChangeVisibility('contact')}>Contato</button>
+      </div>
+        <div className="flex gap-2 flex-wrap">
         <ThemeToggle/>
-        <div className="flex gap-2">
           <button
             onClick={() => changeLanguage('en')}
-            className={`px-2 py-1 rounded ${i18n.language === 'en' ? 'bg-black text-white' : 'bg-gray-200'}`}
+            className={`px-2 py-1 rounded ${i18n.language === 'en' ? 'bg-gray-700 text-white' : 'bg-transparent text-gray-500'}`}
           >
             EN
           </button>
           <button
             onClick={() => changeLanguage('pt')}
-            className={`px-2 py-1 rounded ${i18n.language === 'pt' ? 'bg-black text-white' : 'bg-gray-200'}`}
+            className={`px-2 py-1 rounded ${i18n.language === 'pt' ? 'bg-gray-700 text-white' : 'bg-transparent text-gray-400'}`}
           >
             PT
           </button>
