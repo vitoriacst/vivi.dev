@@ -15,9 +15,7 @@ export default function Header() {
   const dispatch = useAppDispatch()
 
   const handleChangeVisibility = (choosenPage:string) => {
-    dispatch(changeVisibility({
-      page: choosenPage
-    }))
+    dispatch(changeVisibility(choosenPage))
   }
 
 
@@ -25,10 +23,10 @@ export default function Header() {
     <header className="flex justify-between items-center font-semibold py-2 px-4 gap-4 w-full">
       <h1>Vivi.dev</h1>
       <div className="flex items-center gap-4">
+          <button className='btn-nav' onClick={()=>handleChangeVisibility('about')}>Sobre</button>
+          <button className='btn-nav' onClick={()=> handleChangeVisibility('projects')}>Projetos</button>
+          <button className='btn-nav' onClick={()=> handleChangeVisibility('contact')}>Contato</button>
         <ThemeToggle/>
-          <button onClick={()=>handleChangeVisibility('about')}>Sobre</button>
-          <button onClick={()=> handleChangeVisibility('projects')}>Projetos</button>
-          <button onClick={()=> handleChangeVisibility('contact')}>Contato</button>
         <div className="flex gap-2">
           <button
             onClick={() => changeLanguage('en')}

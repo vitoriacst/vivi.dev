@@ -4,9 +4,11 @@ import { useTranslation } from 'react-i18next';
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experiences from './components/Experiences/Experiences';
 import ProjectsCards from './components/ProjectsCard/ProjectsCard';
+import { useAppSelector } from './store/store';
 
 export default function Home() {
   const { t } = useTranslation('common')
+  const pageManagement = useAppSelector((state) => state.visibility.page);
 
   return (
     <main className="flex w-full flex-col items-center justify-center p-6">
@@ -14,13 +16,27 @@ export default function Home() {
         <div className="w-full flex flex-col gap-4 bg-white p-4 rounded-md">
           <AboutMe />
             <Experiences />
-            <div className='flex items-center justify-center gap-2 flex-wrap'>
-            <ProjectsCards title={t('projectsDescription.0.daaiProject')} description={t('projectsDescription.0.daaiDescription')} technologies='TypeScript.Tailwind.Stencil' link={t('projectsDescription.0.daaiLink')} />
-            <ProjectsCards title={t('projectsDescription.0.beersApp')} description={t('projectsDescription.0.beersAppDescription')} technologies='JavaScript.Node.Jest' link={t('projectsDescription.0.beersAppLink')} />
-            <ProjectsCards title={t('projectsDescription.0.giblhiFlix')} description={t('projectsDescription.0.giblhiFlixDescription')} technologies='TypeScript.Tailwind.Cypress' link={t('projectsDescription.0.giblhiFlixLink')} />
-            </div>
         </div>
       </div>
+      <div className='flex items-center justify-center gap-2 flex-wrap w-full bg-white mt-2 h-96 rounded-md'>
+        {
+          pageManagement === 'projects' ?
+          <>
+          <ProjectsCards title={t('projectsDescription.0.daaiProject')} description={t('projectsDescription.0.daaiDescription')} technologies='TypeScript.Tailwind.Stencil' link={t('projectsDescription.0.daaiLink')} />
+         <ProjectsCards title={t('projectsDescription.0.beersApp')} description={t('projectsDescription.0.beersAppDescription')} technologies='JavaScript.Node.Jest' link={t('projectsDescription.0.beersAppLink')} />
+          <ProjectsCards title={t('projectsDescription.0.giblhiFlix')} description={t('projectsDescription.0.giblhiFlixDescription')} technologies='TypeScript.Tailwind.Cypress' link={t('projectsDescription.0.giblhiFlixLink')} />
+          </>
+       : null
+        }
+
+        {
+          pageManagement === 'about' ?
+            <div>
+            aquii
+            </div>
+         : ''
+        }
+        </div>
     </main>
   );
 }

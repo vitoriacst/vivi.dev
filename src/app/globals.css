@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #efefef;
   --foreground: #000000;
   --font-poppins: 'Poppins', sans-serif;
 }
@@ -24,4 +24,8 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 0 2rem;
+}
+
+.btn-nav {
+  @apply hover:cursor-pointer hover:text-gray-500;
 }

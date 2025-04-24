@@ -1,23 +1,26 @@
-import { configureStore, createSlice } from "@reduxjs/toolkit";
+import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { useDispatch, useSelector } from "react-redux";
 
-type InitialSate = {
-  page: string
-}
+type InitialState = {
+  page: string;
+};
 
-const initialState: InitialSate = {
-  page: ''
-}
+const initialState: InitialState = {
+  page: 'about'
+};
+
 
 const visibilitySlice = createSlice({
   name: 'visibility',
   initialState,
   reducers: {
-    changeVisibility: (state, { payload }) => { state.page = payload }
+    changeVisibility: (state, action: PayloadAction<string>) => {
+      state.page = action.payload;
+    }
   }
-})
+});
 
-export const { changeVisibility } = visibilitySlice.actions
+export const { changeVisibility } = visibilitySlice.actions;
 
 export const store = configureStore({
   reducer: {
