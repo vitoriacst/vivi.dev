@@ -47,8 +47,6 @@ export default function Home() {
               <Experiences />
             </div>
           )}
-
-          {pageManagement === 'contact' && <div>contato</div>}
         </div>
       </div>
     </main>

@@ -1,4 +1,4 @@
-import { Sparkles } from 'lucide-react';
+import { Wand } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Contact } from '../Contact/Contact';
 
@@ -16,7 +16,7 @@ export default function AboutMe() {
             {' '}
             {t('greeting')} {t('apresentation')}
           </h1>
-          <Sparkles />
+          <Wand />
         </div>
         <h2 className="text-xl font-semibold">{t('position')}</h2>
         <p className="text-sm">{t('aboutMe')}</p>

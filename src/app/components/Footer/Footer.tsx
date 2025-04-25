@@ -1,7 +1,13 @@
+import { WandSparkles } from 'lucide-react';
+
 export default function Footer() {
   return (
-    <footer className="w-full py-4 text-center">
-      feito com 🖤 por vitória holanda
+    <footer className="py-4 text-center flex item-cente justify-center gap-2">
+      feito com
+      <div>
+        <WandSparkles />
+      </div>
+      por vitória holanda
     </footer>
   );
 }

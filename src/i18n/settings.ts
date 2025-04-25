@@ -7,7 +7,7 @@ const resources = {
       greeting: 'Hello,',
       apresentation: 'I am Vitória Holanda',
       position: 'Software Developer',
-      aboutMe: 'Software developer with more than two years of experience in technologies like React, TypeScript, JavaScript, Node.js, Python and various other modern stacks.',
+      aboutMe: 'I embarked on the development universe to transform lines of code into portals of possibilities — each project, a new adventure in search of solutions that delight and transform.',
       projects: 'My Projects',
       seeMoreButton: 'See More',
       projectsDescription: [
@@ -28,7 +28,7 @@ const resources = {
         }
       ],
       experiences: 'My Experiences',
-      experiencesDescription: 'I have been working with software development for over 2 years. I have worked with different technologies and languages, but my favorite is React.',
+      experiencesDescription: 'I am a full stack developer with solid experience in modern technologies such as React + TypeScript, Python (FastAPI), Vue.js, Stencil.js, MySQL, PostgreSQL, AWS Cloud and Retool. Throughout my career, I have worked on both the frontend and backend, delivering scalable, accessible and well-documented solutions.',
     }
   },
   pt: {
@@ -36,7 +36,7 @@ const resources = {
       greeting: 'Olá,',
       apresentation: 'Eu sou a  Vitória Holanda',
       position: 'Desenvolvedora de software',
-      aboutMe: 'Desenvolvedora de software full stack com mais de dois anos de experiência em tecnologias como React, TypeScript, JavaScript, Node.js, Python e diversas outras stacks modernas.',
+      aboutMe: 'Embarquei no universo do desenvolvimento para transformar linhas de código em portais de possibilidades — cada projeto, uma nova aventura em busca de soluções que encantam e transformam.',
       projects: 'Meus Projetos',
       seeMoreButton: 'Ver mais',
       projectsDescription: [
