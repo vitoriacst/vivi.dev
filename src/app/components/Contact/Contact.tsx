@@ -38,7 +38,7 @@ export const Contact = () => {
         </a>
         <button
           onClick={handleClickCopyEmail}
-          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg"
+          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer"
         >
           <Mail />
           Email
@@ -46,14 +46,14 @@ export const Contact = () => {
         <a
           href={'https://github.com/vitoriacst'}
           target="_blank"
-          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg"
+          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer"
         >
           <Code />
           Github
         </a>
         <button
           onClick={handleDownloadResume}
-          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg"
+          className="flex gap-2 border-2 p-1 rounded-sm transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg cursor-pointer"
         >
           <FileUser />
           {t('download')}
