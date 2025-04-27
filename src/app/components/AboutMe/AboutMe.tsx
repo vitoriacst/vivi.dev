@@ -16,7 +16,7 @@ export default function AboutMe() {
             {' '}
             {t('greeting')} {t('apresentation')}
           </h1>
-          <Wand />
+          <Wand className="hover:animate-bounce" />
         </div>
         <h2 className="text-xl font-semibold">{t('position')}</h2>
         <p className="text-sm">{t('aboutMe')}</p>

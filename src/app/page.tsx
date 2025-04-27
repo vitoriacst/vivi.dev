@@ -22,6 +22,14 @@ export default function Home() {
           {pageManagement === 'projects' && (
             <div className="flex gap-2">
               <ProjectsCards
+                title={t('projectsDescription.0.musicPlataform')}
+                description={t(
+                  'projectsDescription.0.musicPlataformDescription'
+                )}
+                technologies="JavaScript.Css.Redux"
+                link={t('projectsDescription.0.musicPlataformLink')}
+              />
+              <ProjectsCards
                 title={t('projectsDescription.0.daaiProject')}
                 description={t('projectsDescription.0.daaiDescription')}
                 technologies="TypeScript.Tailwind.Stencil"
@@ -32,12 +40,6 @@ export default function Home() {
                 description={t('projectsDescription.0.beersAppDescription')}
                 technologies="JavaScript.Node.Jest"
                 link={t('projectsDescription.0.beersAppLink')}
-              />
-              <ProjectsCards
-                title={t('projectsDescription.0.giblhiFlix')}
-                description={t('projectsDescription.0.giblhiFlixDescription')}
-                technologies="TypeScript.Tailwind.Cypress"
-                link={t('projectsDescription.0.giblhiFlixLink')}
               />
             </div>
           )}

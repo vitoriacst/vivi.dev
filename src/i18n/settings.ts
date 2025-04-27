@@ -12,13 +12,9 @@ const resources = {
       seeMoreButton: 'See More',
       projectsDescription: [
         {
-          viviUi: "Vivi.ui",
-          viviUiDescription: "Vivi.ui is a component library I created to support and accelerate my projects.",
-          viviUiLink: "https://github.com/vitoriacst/vivi-ui",
-
-          giblhiFlix: "Giblhi Flix",
-          giblhiFlixDescription: "Giblhi Flix is a website I built to practice my skills with React, TypeScript, and JavaScript — themed around Studio Ghibli.",
-          giblhiFlixLink: "https://github.com/vitoriacst/Ghibliflix",
+          musicPlataform: 'Music Plataform',
+          musicPlataformDescription: 'Music Plataform was the development of a music app similar to Spotify, where I consumed an API and used its responses.',
+          musicPlataformLink: "https://github.com/vitoriacst/Music_Plataform",
           daaiProject: "Daai Component",
           daaiDescription: "Daai Component is an open-source project I created while working at Doctor Assistant. It focuses on externalizing an AI-powered component to be integrated into other systems.",
           daaiLink: "https://www.npmjs.com/package/@doctorassistant/daai-component",
@@ -29,6 +25,7 @@ const resources = {
       ],
       experiences: 'My Experiences',
       experiencesDescription: 'I am a full stack developer with solid experience in modern technologies such as React + TypeScript, Python (FastAPI), Vue.js, Stencil.js, MySQL, PostgreSQL, AWS Cloud and Retool. Throughout my career, I have worked on both the frontend and backend, delivering scalable, accessible and well-documented solutions.',
+      download:'Resume'
     }
   },
   pt: {
@@ -41,12 +38,10 @@ const resources = {
       seeMoreButton: 'Ver mais',
       projectsDescription: [
         {
-          viviUi: 'Vivi.ui',
-          viviUiDescription: 'Vivi.ui é uma biblioteca de componentes que eu criei para ajudar meus projetos.',
-          viviUiLink: "https://github.com/vitoriacst/vivi-ui",
-          giblhiFlix: 'Giblhi Flix',
-          giblhiFlixDescription: 'Giblhi Flix é um site que fiz para praticar minhas habilidades com React, TypeScript, JavaScript. com a tematíca do studio Ghibli.',
-          giblhiFlixLink: "https://github.com/vitoriacst/Ghibliflix",
+
+          musicPlataform: 'Plataforma de música',
+          musicPlataformDescription: 'music plataform houve a criação de uma aplicação voltada para um aplicativo de música semelhante ao spotify , nele consumi uma api e utilzei os seus retornos.',
+          musicPlataformLink: "https://github.com/vitoriacst/Music_Plataform",
           daaiProject: 'Daai component',
           daaiDescription: 'Daai component foi um projeto open source criado durante o meu trabalho na empresa doctor assistant, focado em externalizar um componente com um inteligência artificial para outros sistemas.',
           beersApp: 'App de delivery de bebidas',
@@ -57,6 +52,7 @@ const resources = {
       ],
       experiences: 'Minhas Experiências',
       experiencesDescription: 'Sou desenvolvedora full stack com experiência sólida em tecnologias modernas como React + TypeScript, Python (FastAPI), Vue.js, Stencil.js, MySQL, PostgreSQL, AWS Cloud e Retool. Ao longo da minha trajetória, atuei tanto no frontend quanto no backend, entregando soluções escaláveis, acessíveis e bem documentadas',
+      download:'Currículo'
     }
   }
 }
