@@ -26,8 +26,8 @@ export const Contact = () => {
   };
 
   return (
-    <div className="flex items-center justify-center flex-col gap-2 mt-2">
-      <section className="flex gap-2">
+    <div className="flex w-full items-start justify-start flex-col gap-2 mt-2 flex-wrap">
+      <section className="flex flex-wrap gap-2">
         <a
           href={'https://www.linkedin.com/in/vitoria-cstholanda/'}
           target="_blank"
