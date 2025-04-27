@@ -43,7 +43,7 @@ const resources = {
           musicPlataformDescription: 'music plataform houve a criação de uma aplicação voltada para um aplicativo de música semelhante ao spotify , nele consumi uma api e utilzei os seus retornos.',
           musicPlataformLink: "https://github.com/vitoriacst/Music_Plataform",
           daaiProject: 'Daai component',
-          daaiDescription: 'Daai component foi um projeto open source criado durante o meu trabalho na empresa doctor assistant, focado em externalizar um componente com um inteligência artificial para outros sistemas.',
+          daaiDescription: 'Daai component foi um projeto open source criado durante o meu trabalho na empresa doctor assistant, focado em externalizar um componente com inteligência artificial para outros sistemas.',
           beersApp: 'App de delivery de bebidas',
           daaiLink: "https://www.npmjs.com/package/@doctorassistant/daai-component",
           beersAppDescription: 'Beers App é um site que fiz para praticar minhas habilidades com React, TypeScript, JavaScript. com a tematíca do studio Ghibli.',
