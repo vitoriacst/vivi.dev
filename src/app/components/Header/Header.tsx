@@ -5,7 +5,7 @@ import { ThemeToggle } from '@/components/ThemeToggle';
 import { useTranslation } from 'react-i18next';
 
 export default function Header() {
-  const { t, i18n } = useTranslation('common');
+  const { i18n } = useTranslation('common');
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
