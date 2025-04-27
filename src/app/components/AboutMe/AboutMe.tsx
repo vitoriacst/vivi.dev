@@ -8,7 +8,7 @@ export default function AboutMe() {
   return (
     <section className="flex flex-col items-start w-full justify-start">
       <div className="mb-2">
-        <img src="/image.png" alt="Vitória Holanda" className="h-24" />
+        <img src="/logo.png" alt="Vitória Holanda" className="h-24" />
       </div>{' '}
       <div className="flex flex-col items-start">
         <div className="flex items-center gap-2">

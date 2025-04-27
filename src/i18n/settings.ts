@@ -7,7 +7,7 @@ const resources = {
       greeting: 'Hello,',
       apresentation: 'I am Vitória Holanda',
       position: 'Software Developer',
-      aboutMe: 'I embarked on the development universe to transform lines of code into portals of possibilities — each project, a new adventure in search of solutions that delight and transform.',
+      aboutMe: 'I began my development journey with the goal of transforming challenges into effective solutions, where each project represents an opportunity for innovation and continuous improvement.',
       projects: 'My Projects',
       seeMoreButton: 'See More',
       projectsDescription: [
@@ -33,7 +33,7 @@ const resources = {
       greeting: 'Olá,',
       apresentation: 'Eu sou a  Vitória Holanda',
       position: 'Desenvolvedora de software',
-      aboutMe: 'Embarquei no universo do desenvolvimento para transformar linhas de código em portais de possibilidades — cada projeto, uma nova aventura em busca de soluções que encantam e transformam.',
+      aboutMe: 'Iniciei minha jornada no desenvolvimento com o objetivo de transformar desafios em soluções eficazes, onde cada projeto representa uma oportunidade de inovação e aprimoramento contínuo.',
       projects: 'Meus Projetos',
       seeMoreButton: 'Ver mais',
       projectsDescription: [
