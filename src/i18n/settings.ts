@@ -25,7 +25,9 @@ const resources = {
       ],
       experiences: 'My Experiences',
       experiencesDescription: 'I m a full stack developer with over 3 years of experience in technologies such as React.js, TypeScript, Node.js, and Python. I have expertise in developing complete solutions, covering front-end, back-end, and database, with a strong focus on agile methodologies (Scrum/Kanban). Throughout my career, I ve worked with several modern frameworks and tools, such as Tailwind CSS, Styled-components, FastAPI, Redux, and Docker. My focus is on delivering robust, scalable, and easy-to-maintain applications.',
-      download:'Resume'
+      download:'Resume',
+      footerText:'made with',
+      footerSecondText:'by Vitória Holanda'
     }
   },
   pt: {
@@ -52,7 +54,9 @@ const resources = {
       ],
       experiences: 'Minhas Experiências',
       experiencesDescription: 'Sou uma desenvolvedora Full Stack com mais de 3 anos de experiência em tecnologias como React.js, TypeScript, Node.js e Python. Tenho expertise no desenvolvimento de soluções completas, abrangendo front-end, back-end e banco de dados, com forte atuação em metodologias ágeis (Scrum/Kanban). Ao longo da minha carreira, trabalhei com diversos frameworks e ferramentas modernas, como Tailwind CSS, Styled-components, FastAPI, Redux, e Docker. Meu foco está em entregar aplicações robustas, escaláveis e de fácil manutenção.',
-      download:'Currículo'
+      download:'Currículo',
+      footerText:'feito com',
+      footerSecondText:'por Vitória Holanda'
     }
   }
 }

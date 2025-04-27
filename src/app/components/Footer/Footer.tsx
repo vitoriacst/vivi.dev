@@ -1,13 +1,16 @@
+'use client';
 import { WandSparkles } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t, i18n } = useTranslation('common');
   return (
     <footer className="py-4 text-center flex item-cente justify-center gap-2">
-      feito com
+      {t('footerText')}
       <div>
         <WandSparkles />
       </div>
-      por vitória holanda
+      {t('footerSecondText')}
     </footer>
   );
 }

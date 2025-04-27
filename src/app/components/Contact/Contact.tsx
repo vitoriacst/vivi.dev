@@ -12,7 +12,6 @@ export const Contact = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    console.log(i18n && i18n.language === 'en');
     if (i18n.language === 'en') {
       link.href = 'curriculum.pdf';
       link.download = 'curriculum.pdf';
