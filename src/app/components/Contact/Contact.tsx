@@ -6,7 +6,7 @@ export const Contact = () => {
   const { t, i18n } = useTranslation('common');
 
   const handleClickCopyEmail = () => {
-    navigator.clipboard.writeText('vitoria.cstholanda@gmail.com');
+    navigator.clipboard.writeText('vitoria.cst.holanda@gmail.com');
     toast('Email copiado com sucesso!');
   };
 
