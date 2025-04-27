@@ -24,7 +24,7 @@ const resources = {
         }
       ],
       experiences: 'My Experiences',
-      experiencesDescription: 'I am a full stack developer with solid experience in modern technologies such as React + TypeScript, Python (FastAPI), Vue.js, Stencil.js, MySQL, PostgreSQL, AWS Cloud and Retool. Throughout my career, I have worked on both the frontend and backend, delivering scalable, accessible and well-documented solutions.',
+      experiencesDescription: 'I m a full stack developer with over 3 years of experience in technologies such as React.js, TypeScript, Node.js, and Python. I have expertise in developing complete solutions, covering front-end, back-end, and database, with a strong focus on agile methodologies (Scrum/Kanban). Throughout my career, I ve worked with several modern frameworks and tools, such as Tailwind CSS, Styled-components, FastAPI, Redux, and Docker. My focus is on delivering robust, scalable, and easy-to-maintain applications.',
       download:'Resume'
     }
   },
@@ -51,7 +51,7 @@ const resources = {
         }
       ],
       experiences: 'Minhas Experiências',
-      experiencesDescription: 'Sou desenvolvedora full stack com experiência sólida em tecnologias modernas como React + TypeScript, Python (FastAPI), Vue.js, Stencil.js, MySQL, PostgreSQL, AWS Cloud e Retool. Ao longo da minha trajetória, atuei tanto no frontend quanto no backend, entregando soluções escaláveis, acessíveis e bem documentadas',
+      experiencesDescription: 'Sou uma desenvolvedora Full Stack com mais de 3 anos de experiência em tecnologias como React.js, TypeScript, Node.js e Python. Tenho expertise no desenvolvimento de soluções completas, abrangendo front-end, back-end e banco de dados, com forte atuação em metodologias ágeis (Scrum/Kanban). Ao longo da minha carreira, trabalhei com diversos frameworks e ferramentas modernas, como Tailwind CSS, Styled-components, FastAPI, Redux, e Docker. Meu foco está em entregar aplicações robustas, escaláveis e de fácil manutenção.',
       download:'Currículo'
     }
   }
